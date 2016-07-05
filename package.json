@@ -1,12 +1,8 @@
 {
   "name": "boilermaker",
   "version": "0.1.0",
-  "description": "modern boilerplate configurator.",
+  "description": "boilerplate configurator for moder js",
   "main": "index.js",
-  "scripts": {},
-  "bin": {
-    "boilermaker": "./bin/boilermaker"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pori/boilermaker.git"
