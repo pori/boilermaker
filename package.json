@@ -1,0 +1,27 @@
+{
+  "name": "boilermaker",
+  "version": "0.1.0",
+  "description": "modern boilerplate configurator.",
+  "main": "index.js",
+  "scripts": {},
+  "bin": {
+    "boilermaker": "./bin/boilermaker"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pori/boilermaker.git"
+  },
+  "author": "A. Hernandez <porialex@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pori/boilermaker/issues"
+  },
+  "homepage": "https://github.com/pori/boilermaker#readme",
+  "dependencies": {
+    "ava": "^0.15.2",
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "eslint": "^2.13.1",
+    "nyc": "^6.6.1"
+  }
+}
