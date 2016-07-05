@@ -23,7 +23,7 @@ include node_modules/boilermaker/Makefile
 
 ## Usage
 
-```sh
+```
 
    build      - compile es2015+ code for distribution
    lint       - validate source code
@@ -37,14 +37,14 @@ include node_modules/boilermaker/Makefile
 
 Set these before loading in the `Makefile`.
 
-* BIN_DIR - location of `babel`, `ava`, `eslint`, and `nyc` binaries
-* BUILD_DIR - destination for built es2015 code 
-* SRC_DIR - destination of source code 
+* BIN_DIR     - location of `babel`, `ava`, `eslint`, and `nyc` binaries
+* BUILD_DIR   - destination for built es2015 code 
+* SRC_DIR     - destination of source code 
 * BUILD_FLAGS - `babel` options 
-* LINT_FLAGS - `eslint` options 
-* TEST_FLAGS - `ava` options 
+* LINT_FLAGS  - `eslint` options 
+* TEST_FLAGS  - `ava` options 
 
-# License
+## License
 
   MIT
 
