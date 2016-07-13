@@ -5,6 +5,7 @@ SRC_DIR 	?= src
 BUILD_FLAGS ?= --presets es2015 
 LINT_FLAGS 	?= --env es6 --parser-options 'sourceType: module' --no-eslintrc 
 TEST_FLAGS 	?= 
+DOC_FLAGS		?= -f md -o documentation.md
 
 COLOR = \033[0;35m 
 NC = \033[0m
@@ -24,6 +25,14 @@ test: lint build
 test-cov: lint build 
 	@echo "Running tests with coverage..."
 	@$(BIN_DIR)/nyc $(BIN_DIR)/ava 
+
+doc:
+	@echo "Generating documentation..."
+	@$(BIN_DIR)/documentation build $(SRC_DIR) $(DOC_FLAGS) 
+
+repl: build
+	@echo "Launching REPL..."
+	@node -r ./$(BUILD_DIR)
 
 help:
 	@echo
