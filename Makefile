@@ -40,6 +40,8 @@ help:
 	@echo "	$(COLOR)lint$(NC) 		- validate source code"
 	@echo "	$(COLOR)test$(NC) 		- run tests (lints, builds first)"
 	@echo "	$(COLOR)test-cov$(NC) 	- run tests with code coverage"
+	@echo "	$(COLOR)doc$(NC)      	- generate documentation (md by default)"
+	@echo "	$(COLOR)repl$(NC)		- start node repl with built code automatically required"
 	@echo "	$(COLOR)help$(NC) 		- you're looking at it"
 	@echo
 

@@ -8,6 +8,8 @@ Boilerplate configurator for modern JS.
 * linting
 * unit testing with [ava](https://github.com/avajs/ava)
 * code coverage
+* generate documentation
+* repl with current project context
 
 ## Install
 
@@ -29,6 +31,8 @@ include node_modules/boilermaker/Makefile
    lint       - validate source code
    test       - run tests (lints, builds first)
    test-cov   - run tests with code coverage
+   doc        - generate documentation (md by default)
+   repl       - start node repl with built code automatically required
    help       - you're looking at it
 
 ```
