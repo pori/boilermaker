@@ -47,6 +47,7 @@ Set these before loading in the `Makefile`.
 * BUILD_FLAGS - `babel` options 
 * LINT_FLAGS  - `eslint` options 
 * TEST_FLAGS  - `ava` options 
+* DOC_FLAGS   - options for [documentation.js](http://documentation.js.org)
 
 ## License
 
